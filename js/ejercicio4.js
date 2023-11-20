@@ -20,6 +20,10 @@ const producto2 = new producto(15062004, "Pelota de futbol", 40000);
 const producto3 = new producto(20012007, "Celular", 120000);
 const arrayProductos = [producto1, producto2, producto3];
 
-producto1.mostrarProducto();
-producto2.mostrarProducto();
-producto3.mostrarProducto();
+arrayProductos[0].mostrarProducto();
+arrayProductos[1].mostrarProducto();
+arrayProductos[2].mostrarProducto();
+
+// producto1.mostrarProducto();
+// producto2.mostrarProducto();
+// producto3.mostrarProducto();
